@@ -8,13 +8,12 @@ System Requirement Specification for Payroll Management
 
 ### Team:
 - Direct Customer
-- In-house Staff // employee
-- Visiting Staff // visiting faculty
-- 
-- Architect // Design front end and code plan
-- Business Analyst //Finance and business related things
-- Quality Assurance Team // Quality and testing of software for bugs
-- System Analyst // Customer support 
+- In-house Staff
+- Visiting Staff
+- Architect
+- Business Analyst
+- Quality Assurance Team
+- System Analyst
 
 ### Objective (Purpose):
 The Online Payroll management system for calculation of salary as per policy,
@@ -38,17 +37,15 @@ be hosted in order to manage the all departments which will be located
 - BI: Business Intelligence
 - KPI: Key Perfomornace Indicators
 - BOD: Board of Directors
+- ERM: Employee Relation Management
 - Dashboard: Personalized information presented using BI techniques such as grid, score card, graph, KPI
 
 
 ### Functional Requirements :
 		
-	- BOD will get generated reports related payroll.
+	- BOD will get generated reports on dashboard about salary disbursements.
 
-	- BOD can generate ticket regarding issues in balance sheet.
-
-	- Manager dashboard will have data related to employee performance and timesheet
-	which will be sent to HR department for payment disbursement.
+	- Manager dashboard will have data related to employee performance and timesheet which will be sent to HR department for salary disbursement.
 
 	- Manager will have authority to hold and approve the salary of the employees.
 
@@ -64,11 +61,9 @@ be hosted in order to manage the all departments which will be located
 
 	- Employee will be able to view salary history and current month salary status.
 
-	- Employee will be able to download salary slip.
+	- Employee will be able to download salary slips.
 
-	- Employee can raise ticket if any issue occurs on transctions i.e. if the amount is not recieved and the status says recieved.
-
-	- Employee didn't recieve incentives and it is mentioned in the salary slip.
+	- Employee can raise complain if there is any issues on salary disbursement i.e. if the amount is not recieved and the status says recieved or any other related issues.
 
 
 
@@ -78,7 +73,7 @@ be hosted in order to manage the all departments which will be located
 	  Each stakeholder will be to access system  through authentication process. Who are you ?
 	  System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
 	  Using SSL in all transactions  which will be performed by stakeholder. It would protect confidential information shared by system to stakeholder.
-	  System will automatically log of  all stakeholder after some time due to inactiveness.
+	  System will automatically lock accounts of all stakeholder after inactiveness or resignation.
 	  System will block operations for inactive  stakeholder and would redirect for authentication.
 	  System  will internally maintain secure communiction channel between Servers ( Web Servers, App Servers, databse Server)
 	  Sensitive data will be always encrypted across communcation.
