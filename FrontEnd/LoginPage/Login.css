@@ -1,0 +1,47 @@
+.loginbody {
+    font-size: 20px;
+    background-color: #262c34;
+    min-height: 90vh;
+    padding: 50px;
+}
+
+.outerdiv {
+    background-color:#d06c20;;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+    border-radius: 50px;
+
+}
+
+input[type='text'],input[type='password']{
+    scale : 50px;
+    width:350px;
+    height: 40px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+.header{
+    padding-top: 50px;
+    color:white;
+    border-radius: 10px;
+    font-weight:900;
+    font-size:60px;
+    height: 90px;
+}
+button{
+    width: 150px;
+}
+button:hover{
+    color:#1a202c;
+    box-shadow: 2px 2px 10px black;
+}
