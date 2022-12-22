@@ -1,0 +1,7 @@
+.bgImg{
+    /* background-image: url("../images/hacker.jpg"); */
+    /* background-size: contain; */
+    background-color: rgb(56, 147, 227);
+    min-height: 100vh;
+    min-width: 100vw;
+}
