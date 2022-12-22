@@ -7,4 +7,4 @@ app.get("/",(req,resp)=>{
 
 });
 app.listen(5000);
-console.log("server is listening on 3000 !!");
+console.log("server is listening on 5000 !!");
