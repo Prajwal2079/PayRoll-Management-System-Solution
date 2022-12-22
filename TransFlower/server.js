@@ -1,13 +1,15 @@
-var express=require("express");
-var app=express();
+const express = require("express");
+const app = express();
+const path = require("path");
+const router = express.Router();
+app.get("/",(req,resp)=>{
+    resp.write("Hello World");
+    resp.end();
+});
+app.get("/index",(req,resp)=>{
+    resp.render("./public/index.html")
+    resp.end();
+});
 
-
-app.get('/',(req,res)=>
-{
-    res.send("<h1>This is TransFlower</h1>");
-    res.end();
-
-})
-
-app.listen(5000);
-console.log("Server is listing on 5000 port");
+app.listen(3000);
+console.log("Express server started on port no 3000")
