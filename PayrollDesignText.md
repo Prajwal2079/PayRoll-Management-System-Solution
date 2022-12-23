@@ -22,31 +22,31 @@ Polmorphsim & Inheritance:
 
 
 Modularity:
-	Authentication
-	Authorization
-	PaymentProcessing
-	Business Intelligence
+	- Authentication
+	- Authorization
+	- PaymentProcessing
+	- Business Intelligence
 	
 	
 
 Concurrency:
-       all payroll Operations are under execution parallely by users, employees, BOD.
+    - All payroll Operations are under execution parallely by users, employees, BOD.
 
 Persistence:
-	All business data will be stored in Data Store for future work
+	- All business data will be stored in Data Store for future work
 	
 
-DFD :Data Flow Diagrams
-process: Employee data 
-external entity: Manager
-data Store: Employee timesheet
+DFD: Data Flow Diagrams
+- process: Employee data 
+- external entity: Manager
+- data Store: Employee timesheet
 
-process: Salary Disbursement
-external entity: HR
-data Store: Disbursement Status
+- process: Salary Disbursement
+- external entity: HR
+- data Store: Disbursement Status
 
-process: Salary Status Record
-external entity: Employee
-data Store: Disbursement Status
+- process: Salary Status Record
+- external entity: Employee
+- data Store: Disbursement Status
 
 	
