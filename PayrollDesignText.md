@@ -51,3 +51,5 @@ DFD: Data Flow Diagrams
 - data Store: Disbursement Status
 
 	
+- ER Diagram : 
+<img src="./PayrollManagementSystemERDiagram.jpg">
