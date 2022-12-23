@@ -51,7 +51,7 @@
 - data Store: Disbursement Status
 
 	
-- ER Diagram : 
+## ER Diagram : 
 <img src="./PayrollManagementSystemERDiagram.jpg">
 
 ## Table Diagram
