@@ -1,6 +1,6 @@
-Payroll Design
+## Payroll Design text
 
-Abstraction:
+# Abstraction:
 
 - Payroll portal for employees, users, HR,Borad of Directors (BOD)
 - Salary Tracking by Employees
@@ -8,7 +8,7 @@ Abstraction:
 - Business Intelligence Dashboard for BOD
 
 
-Encapusulation:
+# Encapusulation:
 
 - Application users will interact with Payroll application using Portal (WebSite).
 - The User Interface will invoke operation logic from remote web services.
@@ -17,11 +17,11 @@ Encapusulation:
 - Database will perform DML,SQL, Stored Procedure Execution at database server level and hide internal implementation.
 
 
-Polmorphsim & Inheritance:
+# Polmorphsim & Inheritance:
 - Business objects will be defined using class hierarchy user, employee, director.
 
 
-Modularity:
+# Modularity:
    - Authenticatio
    - Authorization
    - PaymentProcessing
@@ -29,14 +29,14 @@ Modularity:
 	
 	
 
-Concurrency:
+# Concurrency:
    - All payroll Operations are under execution parallely by users, employees, BOD.
 
-Persistence:
+# Persistence:
    - All business data will be stored in Data Store for future work
 	
 
-DFD: Data Flow Diagrams
+# DFD: Data Flow Diagrams
 
 - process: Employee data 
 - external entity: Manager
@@ -53,3 +53,6 @@ DFD: Data Flow Diagrams
 	
 - ER Diagram : 
 <img src="./PayrollManagementSystemERDiagram.jpg">
+
+## Table Diagram
+<img src="./Table Diagram.jpg">
