@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="footerBody">
             <div className="footerDeclaration">
-                Copyright © 2022-2023 SP Solutions Ltd. All rights reserved.
+                Copyright © 2022-2023 Payroll Systems Limited All rights reserved.
             </div>
 
         </div>
