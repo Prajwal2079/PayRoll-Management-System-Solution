@@ -1,0 +1,17 @@
+.footerBody{
+    position: relative;
+    bottom: 0%;
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    font-size: 15px;
+    height: 39px;
+    justify-content: center;
+}
+
+.footerDeclaration{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

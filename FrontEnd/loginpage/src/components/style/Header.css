@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+.PageTitleStyle{
+    font-size: 60px;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    color: rgb(19, 94, 207);
+    background-color: aliceblue;
+}
