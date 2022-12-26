@@ -1,0 +1,30 @@
+[
+    {
+        "empid": 100,
+        "ename": "pritam chavan",
+        "design": "java trainer",
+        "date": "2022-02-01",
+        "sal": 90000
+    },
+    {
+        "empid": 101,
+        "ename": "prajwal patil",
+        "design": ".net trainer",
+        "date": "2022-08-02",
+        "sal": 70000
+    },
+    {
+        "empid": 102,
+        "ename": "jayesh gangurde",
+        "design": "devops trainer",
+        "date": "2021-02-01",
+        "sal": 65000
+    },
+    {
+        "empid": 103,
+        "ename": "Swapnil Gadave",
+        "design": "java trainer",
+        "date": "2020-06-01",
+        "sal": 80000
+    }
+]
